@@ -25,13 +25,13 @@ SECRET_KEY = 'd7nr-3p3#d#!dme2^6=)@eh+aipy9pmkqp+6-%d8k_yqq#hc3g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','django-vue-restaurant.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','vue-django-restaurant.herokuapp.com']
 
 CORS_ORIGIN_ALLOW_ALL = False 
 
 CORS_ORIGIN_WHITE_LIST = (
     'localhost:8080', 
-    'django-vue-restaurant.herokuapp.com'
+    'vue-django-restaurant.herokuapp.com'
 )
 
 # Application definition
